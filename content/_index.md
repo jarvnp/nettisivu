@@ -1,5 +1,5 @@
 ---
-description: asdsadsadasd
+description: "1234"
 aboutTitle: Minustaa
 about: Tampereelle Ulvilasta muuttanut ohjelmoija. Nykyään enimmäkseen
   webbijuttuja, kisakoodaus ja algoritmit silti lähellä sydäntä. Harrastuksina
