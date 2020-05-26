@@ -1,3 +1,0 @@
----
-pageTitle: Text here
----
