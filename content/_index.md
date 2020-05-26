@@ -1,5 +1,5 @@
 ---
-aboutTitle: Minusta
+aboutTitle: Minustaa
 about: Tampereelle Ulvilasta muuttanut ohjelmoija. Nykyään enimmäkseen
   webbijuttuja, kisakoodaus ja algoritmit silti lähellä sydäntä. Harrastuksina
   talous, sijoittaminen, erämaavaellus sekä ruoka. Suurin saavutus tähän
