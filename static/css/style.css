@@ -1,0 +1,13 @@
+body {
+  background-color: #CCE5FF;
+}
+
+.header{
+  font-family: 'Roboto', sans-serif;
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

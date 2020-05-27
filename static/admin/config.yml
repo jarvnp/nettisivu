@@ -12,27 +12,5 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "Description", name: "description", widget: "text"}
-      - { label: 'About me - title', name: 'aboutTitle', widget: 'string'}
-      - { label: 'About me', name: 'about', widget: 'text'}
-      - { label: 'Projects - title', name: 'projectsTitle', widget: 'string'}
-      - label: 'Projects'
-        name: 'projects'
-        widget: 'list'
-        fields:
-        - {label: 'Project title', name: 'projTitle', widget: 'string'}
-        - {label: 'Project desc', name: 'projDesc', widget: 'text'}
-        - {label: 'Project link', name: 'projLink', widget: 'string'}
-        - {label: 'Project code link', name: 'projCode', widget: 'string'}
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: "Page Title", name: "pageTitle", widget: "string", default: "Text here"}
+      - {label: "Test", name: "test", widget: "string", default: "Text here"}
