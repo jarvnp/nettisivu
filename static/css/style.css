@@ -1,9 +1,31 @@
 body {
-  background-color: #CCE5FF;
+  background-image: url("/img/ledit2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
 }
 
 .header{
   font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.profilePic{
+  width: 200px;
+  float: left;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.container{
+  background: rgba(153, 204, 255, 0.7);
+  flex: 0 1 400px;
+  border-radius: 25px;
 }
 
 .flexbox{
