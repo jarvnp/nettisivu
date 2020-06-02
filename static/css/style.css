@@ -35,7 +35,7 @@ html {
   background: rgba(153, 204, 255, 0.8);
   flex: 0 1 auto;
   border-radius: 10px;
-  margin: 100px 15px 15px 15px;
+  margin: 100px 15px 0px 15px;
   width: 30%;
   min-width: 400px;
 }
@@ -73,5 +73,8 @@ html {
 }
 
 .arrow{
-  font-size: 50px;
+  font-size: 70px;
+  text-decoration: none;
+  color: #C0C0C0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
