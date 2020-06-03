@@ -1,5 +1,6 @@
 ---
-title: LED-kuutio
+title: LED-kuutio<a target="_blank"
+  href="https://www.youtube.com/user/greatscottlab/featured">GreatScott</a>
 description: Muistaakseni ensimmäisiä projekteja, joita tein. On loppujen
   lopuksi myös melko monimutkainen härveli. Idean projektiin sain Youtubesta,
   mistä myös suuri osa elektroniikan tietämyksestäni on opittu. Erityisesti
