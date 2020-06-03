@@ -24,12 +24,12 @@
             <h2 id="Title" class="header2"></h2>
             <p id="Description" class="text"></p>
             <script>
-              document.getElementById("Title").innerHTML = {{ .Title }};
-              document.getElementById("Description").innerHTML = {{ .Description }};
+              document.getElementById("Title".{{ .Title }}).innerHTML = {{ .Title }};
+              document.getElementById("Description".{{ .Title }}).innerHTML = {{ .Description }};
             </script>
           </div>
+          {{end}}
         </div>
-        {{end}}
       </div>
     </div>
   </body>
