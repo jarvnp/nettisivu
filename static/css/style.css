@@ -48,14 +48,14 @@ html {
   border-radius: 10px;
   margin: 150px 15px 15px 15px;
   width: 60%;
-  min-width: 600px;
+  min-width: 400px;
 }
 
 .container2{
   margin: 15px;
   box-shadow: 2px 4px #000000;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   width: 40%;
   min-width: 300px;
 }
