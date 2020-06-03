@@ -17,10 +17,11 @@ collections:
       - { label: 'Body', name: 'body', widget: 'text' }
   - name: 'info'
     label: 'info'
-    files:
-      -label: "Info"
-      name: "Info"
-      file: "content/info.yml"
-      fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Description', name: 'description', widget: 'text' }
+    folder: 'content/info'
+    create: false
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
