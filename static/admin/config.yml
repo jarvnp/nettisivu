@@ -6,9 +6,9 @@ public_folder: /img
 collections:
   - name: 'Project-short'
     label: 'Project-short'
-    folder: 'content'
+    folder: 'content/project-short'
     create: true
-    slug: '_project'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
