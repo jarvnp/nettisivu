@@ -4,13 +4,13 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'index'
-    label: 'Index'
+  - name: 'Project-short'
+    label: 'Project-short'
     folder: 'content'
     create: true
-    slug: '_index'
+    slug: '_project'
     editor:
       preview: false
     fields:
-      - {label: "Page Title", name: "pageTitle", widget: "string", default: "Text here"}
-      - {label: "Test", name: "test", widget: "string", default: "Text here"}
+      - {label: "Project title", name: "projectTitle", widget: "string", default: "Text here"}
+      - {label: "Description", name: "description", widget: "text", default: "Text here"}
