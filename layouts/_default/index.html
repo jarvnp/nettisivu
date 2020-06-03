@@ -19,9 +19,9 @@
       <div id="scroll" class="project_container">
         <h1 class="header">Projektejaa</h1>
         <div class="flexbox2">
-          {{ range .Params.ProjectShort }}
+          {{ range (where .Pages "Section" "blog") }}
           <div class="container2">
-            <h2 class="header2">{{.projectTitle}}</h2>
+            <h2 class="header2">{{ .Title }}</h2>
             <p class="text">Muistaakseni ensimmäisiä projekteja, joita tein. On loppujen lopuksi myös melko monimutkainen härveli. Idean projektiin sain Youtubesta, mistä myös suuri osa elektroniikan tietämyksestäni on opittu. Erityisesti kanava  <a target="_blank" href="https://www.youtube.com/user/greatscottlab/featured">GreatScott</a> on ollut tärkeä minulle, ja sieltä idea tähänkin projektiin taisi tulla.</p>
           </div>
         </div>
