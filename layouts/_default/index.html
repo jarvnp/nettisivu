@@ -21,8 +21,12 @@
         <div class="flexbox2">
           {{ range (where .Pages "Section" "projects") }}
           <div class="container2">
-            <h2 class="header2">{{ .Title }}</h2>
-            <p class="text">{{ .Description }}</p>
+            <h2 id="Title" class="header2"></h2>
+            <p id="Description" class="text"></p>
+            <script>
+              document.getElementById("Title").innerHTML = {{ .Title }};
+              document.getElementById("Description").innerHTML = {{ .Description }};
+            </script>
           </div>
         </div>
         {{end}}
