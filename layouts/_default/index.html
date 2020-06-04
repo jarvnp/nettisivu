@@ -19,7 +19,7 @@
         <div class="info_container">
           <h1 id="lol" class="header">{{range (where .Pages "Section" "info") }} <script> document.write({{ .Title }});</script> {{ end }}</h1>
           <!--<h1 id="lol2"></h1>-->
-          <p class="text"><img class="profilePic" src="/img/profile.png">{{range (where .Pages "Section" "info") }} <script>document.write({{ .Description }});</script> {{ end }}</p>
+          <p class="text">{{range (where .Pages "Section" "info") }} <script>document.write({{ .Description }});</script> {{ end }}</p>
         </div>
         <a href="#scroll" class="arrow">↓</a>
       </div>
