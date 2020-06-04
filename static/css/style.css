@@ -41,13 +41,12 @@ html {
   margin: 15px;
   max-width: 700px;
   min-width: 300px;
-  overflow: auto;
 }
 
 .project_container{
   background: rgba(153, 204, 255, 0.9);
   border-radius: 10px;
-  margin: 150px 15px 15px 15px;
+  margin: 15px;
   max-width: 1000px;
   min-width: 400px;
 }
