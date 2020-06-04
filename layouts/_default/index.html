@@ -11,14 +11,14 @@
       document.getElementById('lol').innerHTML = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
       document.getElementById('lol2').innerHTML = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
     }
-    setInterval(windowSize, 100);
+    //setInterval(windowSize, 100);
   </script>
 </head>
   <body>
     <div class="flexbox">
         <div class="info_container">
           <h1 id="lol" class="header">{{range (where .Pages "Section" "info") }} <script> document.write({{ .Title }});</script> {{ end }}</h1>
-          <h1 id="lol2"></h1>
+          <!--<h1 id="lol2"></h1>-->
           <p class="text"><img class="profilePic" src="/img/profile.png">{{range (where .Pages "Section" "info") }} <script>document.write({{ .Description }});</script> {{ end }}</p>
         </div>
         <a href="#scroll" class="arrow">↓</a>
