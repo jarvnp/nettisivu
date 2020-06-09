@@ -12,11 +12,10 @@
     <div class="flexbox">
         <div class="info_container">
           <h1 id="lol" class="header">{{range (where .Pages "Section" "info") }}{{ .Title}} {{ end }}</h1>
-          <!--<h1 id="lol2"></h1>-->
           <p class="text">{{range (where .Pages "Section" "info") }}{{ .Description | markdownify }}{{ end }}</p>
         </div>
         <a href="#scroll" class="arrow">↓</a>
-      </div>
+    </div>
       <div class="flexbox3">
       <div id="scroll" class="project_container">
         <h1 class="header">Projekteja</h1>
