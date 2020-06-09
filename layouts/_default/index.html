@@ -18,7 +18,7 @@
   <body>
     <div class="flexbox">
         <div class="info_container">
-          <h1 id="lol" class="header">{{range (where .Pages "Section" "info") }} <script> document.write({{ .Title }});</script> {{ end }}</h1>
+          <h1 id="lol" class="header">{{range (where .Pages "Section" "info") }} <script> document.write({{ .Title | markdownify }});</script> {{ end }}</h1>
           <!--<h1 id="lol2"></h1>-->
           <p class="text">{{range (where .Pages "Section" "info") }} <script>document.write({{ .Description }});</script> {{ end }}</p>
         </div>
@@ -34,6 +34,11 @@
             <p class="text"><script>document.write({{ .Description }});</script></p>
           </div>
           {{end}}
+        </div>
+        <h1 class="header">Yhteystiedot</h1>
+        <div>
+          <p class="header2">Puhelinnumero: +358445746406</p>
+          <p class="header2">Sähköposti: matias.jarvenpaa01@gmail.com</p>
         </div>
       </div>
     </div>
