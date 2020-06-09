@@ -7,13 +7,6 @@
   <title>Matias Järvenpää</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
-  <script>
-    function windowSize(){
-      document.getElementById('lol').innerHTML = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-      document.getElementById('lol2').innerHTML = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-    }
-    //setInterval(windowSize, 100);
-  </script>
 </head>
   <body>
     <div class="flexbox">
@@ -30,15 +23,15 @@
         <div class="flexbox2">
           {{ range (where .Pages "Section" "projects") }}
           <div class="container2">
-            <h2 class="header2">{{ .Title}})</h2>
+            <h2 class="header2">{{ .Title}}</h2>
             <p class="text">{{ .Description  | markdownify }}</p>
           </div>
           {{end}}
         </div>
         <h1 class="header">Yhteystiedot</h1>
-        <div>
-          <p class="header2">Puhelinnumero: +358445746406</p>
-          <p class="header2">Sähköposti: matias.jarvenpaa01@gmail.com</p>
+        <div class="contactInfo">
+          <p>Puhelinnumero: +358445746406</p>
+          <p>Sähköposti: matias.jarvenpaa01@gmail.com</p>
         </div>
       </div>
     </div>
