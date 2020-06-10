@@ -14,7 +14,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
-      - { label: 'singlePageContent', name: 'singlePageContent', widget: 'markdown' }
+      - { label: 'SinglePageContent', name: 'singlePageContent', widget: 'markdown' }
   - name: 'info'
     label: 'info'
     folder: 'content/info'
