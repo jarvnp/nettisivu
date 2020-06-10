@@ -9,11 +9,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
 </head>
   <body>
-    <div class="flexbox3">
+    <div id="bodyDiv" class="flexbox4">
       <div id="scroll" class="project_container">
         <h1 class="header">{{ .Params.Title}}</h1>
         <div class="text"><p>{{ .Params.SinglePageContent | markdownify }}<br><a href="/#scroll">Takaisin</a></p></div>
       </div>
     </div>
+    <div id="bottomBar" class="bottomBar">
+      <div class="flexbox5">
+      <a href="/" style="text-decoration: none"><h1 class="bottomBarText">Matias Järvenpää</h1></a>
+      <p class="text">matias.jarvenpaa01@gmail.com</p>
+      <p class="text">+358445746406</p>
+    </div>
   </body>
 </html>
+
+<script>
+  var elmnt = document.getElementById("bodyDiv");
+  elmnt.style.minHeight = "calc(100% - "+document.getElementById("bottomBar").offsetHeight +"px)";
+</script>

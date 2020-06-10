@@ -9,9 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
 </head>
   <body>
-    <div class="topBar">
-      <a href="/" style="text-decoration: none"><h1 class="topBarText">Matias Järvenpää</h1></a>
-    </div>
+    <div id="bodyDiv">
     <div class="flexbox">
         <div class="info_container">
           <h1 class="header">{{range (where .Pages "Section" "info") }}{{ .Title}} {{ end }}</h1>
@@ -37,5 +35,18 @@
         </div>
       </div>
     </div>
+    <div id="bottomBar" class="bottomBar">
+      <div class="flexbox5">
+      <a href="/" style="text-decoration: none"><h1 class="bottomBarText">Matias Järvenpää</h1></a>
+      <p class="text">matias.jarvenpaa01@gmail.com</p>
+      <p class="text">+358445746406</p>
+    </div>
+  </div>
+</div>
   </body>
 </html>
+
+<script>
+  var elmnt = document.getElementById("bodyDiv");
+  elmnt.style.minHeight = "calc(100% - "+document.getElementById("bottomBar").offsetHeight +"px)";
+</script>
