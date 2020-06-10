@@ -1,8 +1,7 @@
 ---
 title: LED-kuutio
 description: <video class = "ledkuutio" loop muted playsinline controls><source
-  src="/img/ledkuutio (1).mp4" type="video/mp4"><source
-  src="/img/ledkuutio.webm" type="video/webm">Selaimesi ei tue
+  src="/img/ledkuutio.mp4" type="video/mp4">Selaimesi ei tue
   videota.</video>Muistaakseni ensimmäisiä projekteja, joita tein. On loppujen
   lopuksi myös melko monimutkainen härveli. Idean projektiin sain Youtubesta,
   mistä myös suuri osa elektroniikan tietämyksestäni on opittu. Erityisesti
