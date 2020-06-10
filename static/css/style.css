@@ -5,6 +5,8 @@ body {
   background-position: center top;
   height: 100%;
   font-size: medium;
+  overflow-wrap: break-word;
+  margin: 0px;
 }
 html {
   scroll-behavior: smooth;
@@ -94,4 +96,18 @@ html {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 1.4em;
+}
+
+.topBar{
+  display: block;
+  width: 100%;
+  background: rgba(153, 204, 255, 1.0);
+  position: sticky;
+  top: 0;
+}
+
+.topBarText{
+  margin: 0px;
+  margin-left: 5%;
+  color: black;
 }
