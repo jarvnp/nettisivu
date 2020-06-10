@@ -126,3 +126,9 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.ledkuutio{
+  width: 150px;
+  float: left;
+  margin: 5px;
+}
