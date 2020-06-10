@@ -1,10 +1,12 @@
 ---
 title: LED-kuutio
-description: Muistaakseni ensimmäisiä projekteja, joita tein. On loppujen
-  lopuksi myös melko monimutkainen härveli. Idean projektiin sain Youtubesta,
-  mistä myös suuri osa elektroniikan tietämyksestäni on opittu. Erityisesti
-  kanava [GreatScott](https://www.youtube.com/user/greatscottlab/featured) on
-  ollut tärkeä minulle, ja sieltä idea tähänkin projektiin taisi tulla.
+description: <video class = "ledkuutio" loop muted playsinline controls
+  src="/img/ledkuutio.mp4"></video>Muistaakseni ensimmäisiä projekteja, joita
+  tein. On loppujen lopuksi myös melko monimutkainen härveli. Idean projektiin
+  sain Youtubesta, mistä myös suuri osa elektroniikan tietämyksestäni on opittu.
+  Erityisesti kanava
+  [GreatScott](https://www.youtube.com/user/greatscottlab/featured) on ollut
+  tärkeä minulle, ja sieltä idea tähänkin projektiin taisi tulla.
 singlePageContent: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas felis ex,
   varius vel laoreet ut, bibendum at erat. Nunc ultricies est felis, vitae
