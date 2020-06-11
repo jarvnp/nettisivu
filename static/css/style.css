@@ -33,8 +33,12 @@ html {
 .profilePic{
   width: 200px;
   float: left;
-  margin: 5px;
   border-radius: 5px;
+}
+
+img{
+  max-width: 100%;
+  margin: 5px;
 }
 
 .info_container{
