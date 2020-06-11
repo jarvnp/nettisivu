@@ -101,8 +101,9 @@ html {
 .bottomBar{
   display: block;
   width: 100%;
-  background: rgba(153, 204, 255, 0.9);
+  background: rgb(200, 200, 200);
   position: relative;
+  font-size: large;
 }
 
 .bottomBarText{
