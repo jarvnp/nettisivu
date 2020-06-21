@@ -34,5 +34,5 @@ singlePageContent: >-
   Hauska yksityiskohta vielä: Halusin laitteelle virran micro-usb-liitännästä, jotta kännykän laturia voisi käyttää virtalähteenä. En kuitenkaan silloin omistanut micro-usb-palikkaa, johon olisi saanut kolvattua helposti johtoja. Kotoa löytyi jokin vanha kännykkä, josta revin micro-usb-liitännän irti ja sain jotenkin kolvattua johdot kiinni oikeisiin paikkoihin ja sain sitten virran siitä.
 
 
-  Myös laitteen kotelon tekeminen oli aikamoinen työmaa. Tein sen autotallistalöytyneestä liian paksusta puulevystä. Tämän takia laite on aika painava.
+  Myös laitteen kotelon tekeminen oli aikamoinen työmaa. Tein sen autotallista löytyneestä liian paksusta puulevystä. Tämän takia laite on aika painava.
 ---
