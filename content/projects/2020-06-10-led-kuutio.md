@@ -11,8 +11,8 @@ description: <video class = "ledkuutio" loop muted playsinline controls><source
   tärkeä minulle, ja sieltä idea tähänkin projektiin taisi tulla. Kuva
   LED-kuutiosta on tosiaan myös tässä sivun taustalla.
 singlePageContent: >-
-  <img id=Led-kuutio style="float: left" src="/img/Led-kuutio-small.jpg"
-  width="300px">Tästä projektista on aika vaikea kirjoittaa mitään, koska
+  <img id=Led-kuutio style="float: right" src="/img/Led-kuutio-small.jpg"
+  width="400px">Tästä projektista on aika vaikea kirjoittaa mitään, koska
   tosiaan sen tekemisestä on noin 4 vuotta. Inspiraatio tuli Youtubesta. Aiemmin
   mainittu GreatScott oli tehnyt vastaavanlaisia kuutioita, ja hänellä oli myös
   video multipleksaamisesta (englanniksi
