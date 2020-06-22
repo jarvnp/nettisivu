@@ -21,8 +21,7 @@ singlePageContent: >-
   kuution 64 yksiväristä lediä riittää minulle. Tähän vaikutti varmaan myös se,
   että halusin tehdä projektin käyttämättä erillistä integroitua piiriä (IC, en
   oikeastaan osaa kaikkia termejä kovin hyvin suomeksi, koska olen
-  elektroniikkatietämykseni oppinut englanniksi). <img style="float: right;
-  background: /img/Led-kuutio-inside1-small.jpg no-repeat"
+  elektroniikkatietämykseni oppinut englanniksi). <img style="float: right"
   src="/img/Led-kuutio-inside1.jpg" width="400px">
 
 
