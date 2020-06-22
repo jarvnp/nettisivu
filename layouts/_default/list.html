@@ -21,7 +21,7 @@
       <div id="scroll" class="project_container">
         <h1 class="header">Projekteja</h1>
         <div class="flexbox2">
-          {{ range (where .Pages "Section" "projects") }}
+          {{ range sort (where .Pages "Section" "projects") .Params.Order "asc" }}
           <div class="container2">
             <h2 class="header2">{{ .Title}}</h2>
             <div class="text">{{ .Description  | markdownify }} <a href={{ .File.Dir}}{{.File.TranslationBaseName}}>Lue lisää...</a></div>
