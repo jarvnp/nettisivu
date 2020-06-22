@@ -1,6 +1,9 @@
 window.addEventListener('load', function() {
     loadHighResImage(document.getElementById('Led-kuutio-inside1'), '/img/Led-kuutio-inside1.jpg')
 })
+window.addEventListener('load', function() {
+    loadHighResImage(document.getElementById('Led-kuutio-inside2'), '/img/Led-kuutio-inside2.jpg')
+})
 
 function loadHighResImage(elem, highResUrl) {
     let image = new Image()
