@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('Led-kuutio-inside1'), 'Led-kuutio-inside1.jpg')
+    loadHighResImage(document.getElementById('Led-kuutio-inside1'), '/img/Led-kuutio-inside1.jpg')
 })
 
 function loadHighResImage(elem, highResUrl) {
