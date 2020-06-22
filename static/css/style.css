@@ -5,7 +5,7 @@ body {
   background-position: center top;
   height: 100%;
   font-size: medium;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
   margin: 0px;
 }
 html {
