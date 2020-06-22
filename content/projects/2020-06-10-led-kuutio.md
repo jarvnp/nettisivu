@@ -36,5 +36,5 @@ singlePageContent: >-
 
 
   Myös laitteen kotelon tekeminen oli aikamoinen työmaa. Tein sen autotallista löytyneestä liian paksusta puulevystä. Tämän takia laite on aika painava.
-order: 5
+order: 2
 ---
