@@ -36,5 +36,8 @@ singlePageContent: >-
 
 
   Myös laitteen kotelon tekeminen oli aikamoinen työmaa. Tein sen autotallista löytyneestä liian paksusta puulevystä. Tämän takia laite on aika painava.
+
+
+  [Linkki koodiin](https://github.com/jarvnp/Led-kuutio)
 order: 2
 ---
