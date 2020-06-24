@@ -14,16 +14,18 @@ singlePageContent: >-
   yhtään kuvaa. (Silloin en ollut vielä somenuori, eikä minulla ollut
   Snapchattia, joten en ottanut kuvia kaikesta mahdollisesta.) Tallella on
   kuitenkin tekemäni 3D-mallit, joten niiden avulla voin suurin piirtein
-  näyttää, millainen kopteri oli. Se oli siis kooltaan melko pieni, moottorin
-  keskipisteestä vastakkaisessa kulmassa olevan moottorin keskipisteeseen noin
-  150 mm. Propellit olivat kolmen tuumaa halkaisijaltaan. Olen pihi, joten
-  suurin osa osista oli halvimpia mitä sain Hobbykingistä, ja kai ajattelin
-  säästäväni siinäkin, että tulostan itse rungon ja käytän koneen aivoina taas
-  kerran Arduinosta tuttua Atmega328P-mikrokontrolleria, jonka ohjelmoin itse.
-  (Jossain vaiheessa koneen aivoina oli Arduino Pro mini, mutta ainakin lopulta
-  olen päätynyt käyttämään Atmega328P-mikrokontrolleria ilman mitään
-  Arduino-alustaa. Ei sinänsä väliä, sama mikrokontrolleri kuitenkin kyseessä
-  molemmissa vaihtoehdoissa.)
+  näyttää, millainen kopteri oli. <img style="float: right"
+  src="/img/quadcopter-model" width="400px"> Se oli siis kooltaan melko pieni,
+  moottorin keskipisteestä vastakkaisessa kulmassa olevan moottorin
+  keskipisteeseen noin 150 mm. Propellit olivat kolmen tuumaa halkaisijaltaan.
+  Päällä oleva korkea kohta suojasi elektroniikkaa sekä kameraa ja videokuvan
+  radiolähetintä. Olen pihi, joten suurin osa osista oli halvimpia mitä sain
+  Hobbykingistä, ja kai ajattelin säästäväni siinäkin, että tulostan itse rungon
+  ja käytän koneen aivoina taas kerran Arduinosta tuttua
+  Atmega328P-mikrokontrolleria, jonka ohjelmoin itse. (Jossain vaiheessa koneen
+  aivoina oli Arduino Pro mini, mutta ainakin lopulta olen päätynyt käyttämään
+  Atmega328P-mikrokontrolleria ilman mitään Arduino-alustaa. Ei sinänsä väliä,
+  sama mikrokontrolleri kuitenkin kyseessä molemmissa vaihtoehdoissa.)
 
 
   Hommasin siis quadkopteriin vaadittavat osat ja rupesin kasaamaan niistä toimivaa kokonaisuutta. Välttämättömiä elektroniikkaosia ei edes ole kauhean paljon: Flight Controller (tässä tapauksessa Atmega328P), 4xESC (Electronic Speed Controller (tarvitaan jotta voidaan ohjata harjattomia moottoreita), radiovastaanotin ja gyroskooppi. Gyroskooppina käytin MPU6050-moduulia, jossa on myös kiihtyvyysanturi. Gyroskooppi mittaa kopterin pyörimistä kolmessa suunnassa, mutta se kertoo vain pyörimisnopeuden, eikä siis kopterin absoluuttista asentoa. Tämä kuitenkin riittää, jos suunnittelee käyttävänsä kopteria ns. [Acro-modella](https://ardupilot.org/copter/docs/acro-mode.html), jossa kopterin asento pysyy samana, jos ohjaussauvoihin ei koske. Kiihtyvyysanturin avulla voi mitata kopterin absoluuttisen asennon painovoiman aiheuttaman alaspäin suuntautuvan voiman avulla. Yritinkin toteuttaa myös ns. Self-level-moden, jossa kopteri tasapainottaisi itsensä, jos irrottaa ohjaussauvoista. En kuitenkaan muistaakseni onnistunut tässä. Jotenkin moottoreiden aiheuttama tärinä teki kiihtyvyysmittarin lukemasta liian epävakaan ja en saanut asioita toimimaan. Acro-mode kuitenkin riitti minulle, koska kaikissa Youtube-videoissa, joita katsoin, ihmiset lensivät Acro-modella ja tekivät hienoja temppuja koptereillaan.
