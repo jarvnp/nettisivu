@@ -10,6 +10,9 @@ window.addEventListener('load', function() {
 window.addEventListener('load', function() {
     loadHighResImage(document.getElementById('quadcopter-new'), '/img/quadcopter-new.jpg')
 })
+window.addEventListener('load', function() {
+    loadHighResImage(document.getElementById('quadcopter-old'), '/img/quadcopter-old.jpg')
+})
 
 function loadHighResImage(elem, highResUrl) {
     let image = new Image()
