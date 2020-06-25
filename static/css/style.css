@@ -41,6 +41,15 @@ img, video{
   margin: 5px;
 }
 
+figure{
+  max-width: 100%;
+}
+
+figcaption{
+  font-size: 0.8em;
+  text-align: center;
+}
+
 .info_container{
   background: rgba(153, 204, 255, 0.9);
   border-radius: 10px;
