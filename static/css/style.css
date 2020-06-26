@@ -4,9 +4,11 @@ body {
   background-size: cover;
   background-position: center top;
   height: 100%;
+  width: 100%;
   font-size: medium;
   overflow-wrap: normal;
   margin: 0px;
+  padding: 0px;
 }
 html {
   scroll-behavior: smooth;
@@ -49,7 +51,8 @@ img, video{
 
 .imgWithCaption{
   max-width: 100%;
-  margin: 15px;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 .info_container{
