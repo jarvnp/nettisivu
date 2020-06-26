@@ -41,13 +41,15 @@ img, video{
   margin: 5px;
 }
 
-figure{
-  max-width: 100%;
-}
 
-figcaption{
+.caption{
   font-size: 0.8em;
   text-align: center;
+}
+
+.imgWithCaption{
+  max-width: 100%;
+  margin: 15px;
 }
 
 .info_container{
