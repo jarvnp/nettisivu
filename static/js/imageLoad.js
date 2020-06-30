@@ -13,6 +13,18 @@ window.addEventListener('load', function() {
 window.addEventListener('load', function() {
     loadHighResImage(document.getElementById('quadcopter-old'), '/img/quadcopter-old.jpg')
 })
+window.addEventListener('load', function() {
+    loadHighResImage(document.getElementById('globe'), '/img/globe.jpg')
+})
+window.addEventListener('load', function() {
+    loadHighResImage(document.getElementById('printer'), '/img/printer.jpg')
+})
+window.addEventListener('load', function() {
+    loadHighResImage(document.getElementById('boat'), '/img/boat.JPG')
+})
+window.addEventListener('load', function() {
+    loadHighResImage(document.getElementById('printer-electronics'), '/img/printer-electronics.JPG')
+})
 
 function loadHighResImage(elem, highResUrl) {
     let image = new Image()
