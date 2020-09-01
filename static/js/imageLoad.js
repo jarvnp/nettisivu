@@ -18,7 +18,6 @@ imageLoader('boat','/img/boat.JPG');
 imageLoader('printer-electronics', '/img/printer-electronics.JPG')
 
 function loadHighResImage(elem, highResUrl) {
-    console.log(elem)
     let image = new Image()
     image.addEventListener('load', () => elem.src = highResUrl)
     image.src = highResUrl
