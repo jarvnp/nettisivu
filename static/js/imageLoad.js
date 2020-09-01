@@ -16,6 +16,10 @@ imageLoader('globe', '/img/globe.jpg');
 imageLoader('printer', '/img/printer.jpg');
 imageLoader('boat','/img/boat.JPG');
 imageLoader('printer-electronics', '/img/printer-electronics.JPG')
+imageLoader('radio', '/img/radio.jpg')
+imageLoader('radio-inside', '/img/radio-inside.jpg')
+imageLoader('radio-inside2', '/img/radio-inside2.jpg')
+
 
 function loadHighResImage(elem, highResUrl) {
     let image = new Image()
