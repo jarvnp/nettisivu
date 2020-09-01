@@ -33,7 +33,7 @@ html {
 }
 
 .profilePic{
-  width: 200px;
+  width: 300px;
   float: left;
   border-radius: 5px;
 }
@@ -61,7 +61,7 @@ img, video{
   border-radius: 10px;
   margin: 15px;
   width: 100%;
-  max-width: 70ch;
+  max-width: 80ch;
 }
 
 .project_container{

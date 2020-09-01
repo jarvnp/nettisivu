@@ -1,32 +1,38 @@
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('Led-kuutio-inside1'), '/img/Led-kuutio-inside1.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('Led-kuutio-inside2'), '/img/Led-kuutio-inside2.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('Led-kuutio'), '/img/Led-kuutio.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('quadcopter-new'), '/img/quadcopter-new.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('quadcopter-old'), '/img/quadcopter-old.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('globe'), '/img/globe.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('printer'), '/img/printer.jpg')
-})
-window.addEventListener('load', function() {
-    loadHighResImage(document.getElementById('boat'), '/img/boat.JPG')
-})
+function imageLoader(idd, image){
+  console.log(document.getElementById(idd));
+  if(document.getElementById(idd) !== null){
+      console.log(idd);
+    window.addEventListener('load', function() {
+        loadHighResImage(document.getElementById(idd), image);
+    })
+  }
+}
+
+function loadImages(){
+  imageLoader('profile-pic', '/img/profile-pic.jpg');
+  imageLoader('Led-kuutio-inside1', '/img/Led-kuutio-inside1.jpg');
+  imageLoader('Led-kuutio-inside2', '/img/Led-kuutio-inside2.jpg');
+  imageLoader('Led-kuutio', '/img/Led-kuutio.jpg');
+  imageLoader('quadcopter-new', '/img/quadcopter-new.jpg');
+  imageLoader('quadcopter-old', '/img/quadcopter-old.jpg');
+  imageLoader('globe', '/img/globe.jpg');
+  imageLoader('printer', '/img/printer.jpg');
+  imageLoader('boat','/img/boat.JPG');
+  imageLoader('printer-electronics', '/img/printer-electronics.JPG')
+}
+
+
+
+
+/*
+
 window.addEventListener('load', function() {
     loadHighResImage(document.getElementById('printer-electronics'), '/img/printer-electronics.JPG')
 })
+*/
 
 function loadHighResImage(elem, highResUrl) {
+  console.log(elem)
     let image = new Image()
     image.addEventListener('load', () => elem.src = highResUrl)
     image.src = highResUrl
