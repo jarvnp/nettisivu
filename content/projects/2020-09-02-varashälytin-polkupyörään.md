@@ -54,6 +54,9 @@ singlePageContent: >-
   Moduulin vaihdon yhteydessä jouduin muokkaamaan koodia jonkin verran, jotta sain sen toimimaan. Loppujen lopuksi koodi on järkyttävä tilkkutäkki, jossa on vähän vanhaa ja hiukan uutta. Siitä on varmasti melko vaikea saada mitään selvää. Se kuitenkin toimii, mikä on pääasia minulle. Vähän kyllä (jälleen kerran) nolottaa julkaista tuollaista koodia, mutta en edelleenkään rupea korjaamaan koodiani enemmän julkaisukelpoiseksi, vaan julkaisen sen sellaisena kuin se on projektini ollessa valmis.
 
 
-  (Kuvia ja koodi tulossa ja kirjoitusvirheet korjataan)
+  (Kuvia tulossa)
+
+
+  [Linkki koodiin](https://github.com/jarvnp/bikealarm)
 order: 6
 ---
