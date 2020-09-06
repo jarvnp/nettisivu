@@ -19,6 +19,9 @@ imageLoader('printer-electronics', '/img/printer-electronics.JPG')
 imageLoader('radio', '/img/radio.jpg')
 imageLoader('radio-inside', '/img/radio-inside.jpg')
 imageLoader('radio-inside2', '/img/radio-inside2.jpg')
+imageLoader('bike-alarm', '/img/bike-alarm.jpg')
+imageLoader('bike-alarm-inside', '/img/bike-alarm-inside.jpg')
+imageLoader('bike-alarm-old-module', '/img/bike-alarm-old-module.jpg')
 
 
 function loadHighResImage(elem, highResUrl) {
