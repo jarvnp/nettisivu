@@ -22,6 +22,7 @@ imageLoader('radio-inside2', '/img/radio-inside2.jpg')
 imageLoader('bike-alarm', '/img/bike-alarm.jpg')
 imageLoader('bike-alarm-inside', '/img/bike-alarm-inside.jpg')
 imageLoader('bike-alarm-old-module', '/img/bike-alarm-old-module.jpg')
+imageLoader('garage-remote', '/img/garage-remote.jpg')
 
 
 function loadHighResImage(elem, highResUrl) {
