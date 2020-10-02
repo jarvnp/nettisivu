@@ -5,10 +5,14 @@ description: Ei kovin yllättäen sain idean tähänkin projektiin
   oli kuitenkin hyvin erilainen kuin videolla, koska videolla käytetty SMS/GPS
   -moduuli oli aivan liian kallis. (noin 50€) Löysin itse netistä vastaavan noin
   10 eurolla ja aloin kehittää omaa versiotani pyörähälyttimestä.
+HTMLdescription: Rakentamani polkupyörähälytin lähettää tekstiviestin, mikäli
+  pyöräni liikkuu silloin, kun sen ei pitäisi liikkua. Rakentamisessa oli ylä-
+  ja alamäkiä, mutta lopulta sain kasaan toimivan laitteen.
 singlePageContent: >-
   <img id=bike-alarm style="float: right" src="/img/bike-alarm-small.jpg"
-  width="500px" alt="Varashälytin kiinnitettynä polkupyörän satulan alla">Liiketunnistimena käytin MPU6050 gyroskooppia/kiihtyvyysmittaria, ja siitä
-  nimenomaan kiihtyvyysmittariominaisuutta, toisin kuin videolla, jossa
+  width="500px" alt="Varashälytin kiinnitettynä polkupyörän satulan
+  alla">Liiketunnistimena käytin MPU6050 gyroskooppia/kiihtyvyysmittaria, ja
+  siitä nimenomaan kiihtyvyysmittariominaisuutta, toisin kuin videolla, jossa
   käytettiin piezo-kristallia. MPU6050-sensoria ohjataan I2C-protokollalla
   Atmega328p mikrokontrollerilla. Sensoria saa käytettyä siten, että se tekee
   mittauksia muutaman kerran sekunnissa ja nukkuu lopun ajan. (Kuluttaa hyvin
