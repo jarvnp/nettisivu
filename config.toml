@@ -1,3 +1,19 @@
-baseURL = "http://ktj.st"
+baseURL = "https://jarvenp.fi"
 languageCode = "fi"
 title = "Matias Järvenpää"
+DefaultContentLanguage = "fi"
+[languages]
+  [languages.fi]
+    weight = 1
+    contentDir = "content/fi"
+    [languages.fi.params]
+      readMore = "Lue lisää..."
+      projects = "Projekteja"
+      back = "Takaisin"
+  [languages.en]
+  	contentDir = "content/en"
+    weight = 2
+    [languages.en.params]
+      readMore = "Read more..."
+      projects = "Projects"
+      back = "Back to main page"

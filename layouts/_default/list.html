@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="{{.Site.Language.Lang}}">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -7,24 +7,28 @@
   <title>Matias Järvenpää</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
-  <meta name="description" content="Nettisivuni, jossa kerron itsestäni ja elektroniikkaharrastuksestani. Samalla näiden sivujen on tarkoitus toimia myös jonkinlaisena ansioluettelona itselleni.">
+  <meta name="description" content="{{range (where .Pages "Section" "info") }}{{ .Params.HTMLDescription}}{{ end }}">
 </head>
   <body>
     <div class="flexbox">
         <div class="info_container">
-          <h1 class="header">{{range (where .Pages "Section" "info") }}{{ .Title}} {{ end }}</h1>
+          <h1 style="margin-bottom: 0px;" class="header">{{range (where .Pages "Section" "info") }}{{ .Title}} {{ end }}</h1>
+          <div style="text-align: center">
+            <a href="/en">In English</a>
+            <a href="/fi">Suomeksi</a>
+          </div>
           <div class="text">{{range (where .Pages "Section" "info") }}{{ .Description | markdownify }}{{ end }}</div>
         </div>
         <a href="#scroll" class="arrow">↓</a>
     </div>
       <div class="flexbox3">
       <div id="scroll" class="project_container">
-        <h1 class="header">Projekteja</h1>
+        <h1 class="header">{{.Site.Params.projects}}</h1>
         <div class="flexbox2">
           {{ range ((where .Pages "Section" "projects").ByParam "Order")}}
           <div class="container2">
             <h2 class="header2">{{ .Title}}</h2>
-            <div class="text">{{ .Description  | markdownify }} <a href={{ .File.Dir}}{{.File.TranslationBaseName}}>Lue lisää...</a></div>
+            <div class="text">{{ .Description  | markdownify }} <a href={{ .File.Dir}}{{.File.TranslationBaseName}}>{{.Site.Params.readMore}}</a></div>
           </div>
           {{end}}
         </div>

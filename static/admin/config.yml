@@ -6,7 +6,21 @@ public_folder: /img
 collections:
   - name: 'projects'
     label: 'Projects'
-    folder: 'content/projects'
+    folder: 'content/fi/projects'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    widget: 'list'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'HTMLDescription', name: 'HTMLdescription', widget: 'text' }
+      - { label: 'SinglePageContent', name: 'singlePageContent', widget: 'markdown' }
+      - { label: 'Order', name: 'order', widget: 'number', valuetype: "int" }
+  - name: 'projectsEN'
+    label: 'ProjectsEN'
+    folder: 'content/en/projects'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     widget: 'list'
@@ -20,11 +34,23 @@ collections:
       - { label: 'Order', name: 'order', widget: 'number', valuetype: "int" }
   - name: 'info'
     label: 'info'
-    folder: 'content/info'
+    folder: 'content/fi/info'
     create: false
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'HTMLDescription', name: 'HTMLdescription', widget: 'text' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+  - name: 'infoEN'
+    label: 'infoEN'
+    folder: 'content/en/info'
+    create: false
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'HTMLDescription', name: 'HTMLdescription', widget: 'text' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
