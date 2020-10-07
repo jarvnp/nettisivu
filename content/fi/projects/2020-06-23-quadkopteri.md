@@ -9,19 +9,23 @@ description: Joskus 2017 vuoden loppupuolella keksin, että quadkopterilla
   kopterin, joka oli ihan lentokelpoinen. (Tosin myöhemmin päädyin silti
   ostamaan hiilikuiturungon ja paremman Flight Controllerin, jota en ohjelmoinut
   itse, mutta siitä lisää myöhemmin.)
+HTMLdescription: Joskus 2017 vuoden loppupuolella keksin, että quadkopterilla
+  lentäminen voisi olla kivaa. Lähdin sitten rakentamaan itse FPV-quadkopteria
+  3D-tulostimellani ja päätin myös ohjelmoida itse kopterin aivot, ns. Flight
+  Controllerin.
 singlePageContent: >-
   Typeränä ihmisenä en ottanut toimivasta 3D-tulostetusta kopterista varmaan
   yhtään kuvaa. (Silloin en ollut vielä somenuori, eikä minulla ollut
   Snapchattia, joten en ottanut kuvia kaikesta mahdollisesta.) Tallella on
   kuitenkin tekemäni 3D-mallit, joten niiden avulla voin suurin piirtein
   näyttää, millainen kopteri oli. <img style="float: right"
-  src="/img/quadcopter-model.png" width="500px" alt="Quadkopterin 3D-malli"> Se oli siis kooltaan melko
-  pieni, moottorin keskipisteestä vastakkaisessa kulmassa olevan moottorin
-  keskipisteeseen noin 150 mm. Propellit olivat kolmen tuumaa halkaisijaltaan.
-  Päällä oleva korkea kohta suojasi elektroniikkaa sekä kameraa ja videokuvan
-  radiolähetintä. Olen pihi, joten suurin osa osista oli halvimpia mitä sain
-  Hobbykingistä, ja kai ajattelin säästäväni siinäkin, että tulostan itse rungon
-  ja käytän koneen aivoina taas kerran Arduinosta tuttua
+  src="/img/quadcopter-model.png" width="500px" alt="Quadkopterin 3D-malli"> Se
+  oli siis kooltaan melko pieni, moottorin keskipisteestä vastakkaisessa
+  kulmassa olevan moottorin keskipisteeseen noin 150 mm. Propellit olivat kolmen
+  tuumaa halkaisijaltaan. Päällä oleva korkea kohta suojasi elektroniikkaa sekä
+  kameraa ja videokuvan radiolähetintä. Olen pihi, joten suurin osa osista oli
+  halvimpia mitä sain Hobbykingistä, ja kai ajattelin säästäväni siinäkin, että
+  tulostan itse rungon ja käytän koneen aivoina taas kerran Arduinosta tuttua
   Atmega328P-mikrokontrolleria, jonka ohjelmoin itse. (Jossain vaiheessa koneen
   aivoina oli Arduino Pro mini, mutta ainakin lopulta olen päätynyt käyttämään
   Atmega328P-mikrokontrolleria ilman mitään Arduino-alustaa. Ei sinänsä väliä,

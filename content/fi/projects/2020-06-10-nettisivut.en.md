@@ -6,6 +6,12 @@ description: Lukion päättymisen ja armeijan välissä minulla oli aikaa, joten
   ole. Ohjelmointia osaavana en kehdannut tehdä nettisivuja helpolla tavalla
   jonkin ohjelman avulla, vaan sukelsin HTML:n, CSS:n ja JavaScriptin
   ihmeelliseen ja hämmentävään maailmaan.
+HTMLdescription: Lukion päättymisen ja armeijan välissä minulla oli aikaa, joten
+  ajattelin että voisi olla hyödyllistä väsätä itselleni nettisivut vähän niin
+  kuin ansioluetteloksi, koska omaa osaamista vastaavaa työkokemusta ei vielä
+  ole. Ohjelmointia osaavana en kehdannut tehdä nettisivuja helpolla tavalla
+  jonkin ohjelman avulla, vaan sukelsin HTML:n, CSS:n ja JavaScriptin
+  ihmeelliseen ja hämmentävään maailmaan.
 singlePageContent: >-
   Tykkään tehdä asioita lähellä "rautaa". Siksi varmaan hainkin sähkötekniikkaa
   lukemaan. Tämän takia en kauheasti nauttinut tästä nettisivun kehittämisestä.
