@@ -11,8 +11,7 @@ description: <video class = "ledkuutio" loop muted playsinline controls><source
   tärkeä minulle, ja sieltä idea tähänkin projektiin taisi tulla. Kuva
   LED-kuutiosta on myös tässä sivun taustalla.
 HTMLdescription: 4x4x4 LED-kuutio, jonka tein joskus 2016 vuoden loppupuolella.
-  On loppujen lopuksi myös melko monimutkainen härveli. Idean projektiin sain
-  Youtubesta, mistä myös suuri osa elektroniikan tietämyksestäni on opittu.
+  On loppujen lopuksi myös melko monimutkainen härveli.
 singlePageContent: >-
   <img id=Led-kuutio style="float: right" src="/img/Led-kuutio-small.jpg"
   width="400px" alt="LED-kuutio">Tästä projektista on aika vaikea kirjoittaa
