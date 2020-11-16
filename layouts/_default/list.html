@@ -28,7 +28,7 @@
           {{ range ((where .Pages "Section" "projects").ByParam "Order")}}
           <div class="container2">
             <h2 class="header2">{{ .Title}}</h2>
-            <div class="text">{{ .Description  | markdownify }} <a href={{ .File.Dir}}{{.File.TranslationBaseName}}>{{.Site.Params.readMore}}</a></div>
+            <div class="text">{{ .Description  | markdownify }} <a href="{{ .File.Dir}}{{.File.TranslationBaseName}}{{ "?desc=false"}}">{{.Site.Params.readMore}}</a></div>
           </div>
           {{end}}
         </div>

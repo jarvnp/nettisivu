@@ -13,6 +13,7 @@
     <div id="bodyDiv" class="flexbox4">
       <div id="scroll" class="project_container">
         <h1 class="header">{{ .Params.Title}}</h1>
+        <div class="text"><b id=small-description></b></div>
         <div class="text"><p>{{ .Params.SinglePageContent | markdownify }}<br><a href="../../#scroll">{{.Site.Params.back}}</a></p></div>
       </div>
     </div>
@@ -28,5 +29,8 @@
 <script>
   var elmnt = document.getElementById("bodyDiv");
   elmnt.style.minHeight = "calc(100% - "+document.getElementById("bottomBar").offsetHeight +"px)";
+  if(window.location.search == ""){
+    document.getElementById("small-description").innerHTML = {{ .Params.Description | markdownify}} + "<br>";
+  }
 </script>
 <script src="/js/imageLoad.js"></script>
