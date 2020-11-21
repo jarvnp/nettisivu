@@ -10,6 +10,7 @@ DefaultContentLanguage = "fi"
       readMore = "Lue lisää..."
       projects = "Projekteja"
       back = "Takaisin"
+      quote = "Tuntuu siltä, että jokaisen tänne kirjoittamani tekstin viimeisen kappaleen aihe on, että häpeän projektiani, mutta olen silti tyytyväinen siihen, että se toimii."
   [languages.en]
   	contentDir = "content/en"
     weight = 2
@@ -17,3 +18,4 @@ DefaultContentLanguage = "fi"
       readMore = "Read more..."
       projects = "Projects"
       back = "Back to main page"
+      quote = "I feel like every text I write here ends with me saying that I'm ashamed of the project but I'm still happy that it works."

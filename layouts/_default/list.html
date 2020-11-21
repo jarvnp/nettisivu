@@ -10,7 +10,7 @@
   <meta name="description" content="{{range (where .Pages "Section" "info") }}{{ .Params.HTMLDescription}}{{ end }}">
 </head>
   <body>
-    <div class="flexbox">
+    <div class="info_frame">
         <div class="info_container">
           <h1 style="margin-bottom: 0px;" class="header">{{range (where .Pages "Section" "info") }}{{ .Title}} {{ end }}</h1>
           <div style="text-align: center">
@@ -21,12 +21,13 @@
         </div>
         <a href="#scroll" class="arrow">↓</a>
     </div>
-      <div class="flexbox3">
+    <div class="project_frame">
       <div id="scroll" class="project_container">
-        <h1 class="header">{{.Site.Params.projects}}</h1>
-        <div class="flexbox2">
+        <h1 class="header" style="margin-bottom: 0px">{{.Site.Params.projects}}</h1>
+        <div class="text" style="text-align: center"><i>"{{.Site.Params.quote}}"</i></div>
+        <div class="project_description_frame">
           {{ range ((where .Pages "Section" "projects").ByParam "Order")}}
-          <div class="container2">
+          <div class="project_description">
             <h2 class="header2">{{ .Title}}</h2>
             <div class="text">{{ .Description  | markdownify }} <a href="{{ .File.Dir}}{{.File.TranslationBaseName}}{{ "?desc=false"}}">{{.Site.Params.readMore}}</a></div>
           </div>
@@ -35,7 +36,7 @@
       </div>
   </div>
     <div id="bottomBar" class="bottomBar">
-      <div class="flexbox5">
+      <div class="bottomBar_frame">
       <a href="/" style="text-decoration: none"><h1 class="bottomBarText">Matias Järvenpää</h1></a>
       <p class="text">matias.jarvenpaa01@gmail.com</p>
       <p class="text">+358445746406</p>

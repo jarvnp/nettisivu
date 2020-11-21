@@ -72,7 +72,7 @@ img, video{
   max-width: 130ch;
 }
 
-.container2{
+.project_description{
   margin: 15px;
   box-shadow: 2px 4px #000000;
   border-style: solid;
@@ -81,7 +81,7 @@ img, video{
   max-width: 50ch;
 }
 
-.flexbox{
+.info_frame{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -89,13 +89,13 @@ img, video{
     justify-content: center;
 }
 
-.flexbox3{
+.project_frame{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.flexbox2{
+.project_description_frame{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -133,13 +133,8 @@ img, video{
   width: 100%;
 }
 
-.flexbox4{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
-.flexbox5{
+.bottomBar_frame{
     display: flex;
     align-items: center;
     flex-direction: row;

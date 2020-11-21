@@ -6,7 +6,7 @@ description: Kotona meillä säilytetään polkupyöriä autotallissa. Autotalli
   ylitsepääsemättömän raskasta, koska silloin joutuu pysäyttämään pyörän,
   nousemaan pois selästä, kaivamaan avaimen esiin, avaamaan oven ja sitten pitää
   vielä taluttaa pyörä sisään. Kaukosäätimellä homma hoituu paljon helpommin.
-  Oven voi avata nappia painamalla pieneltä etäisyydeltä, eikä tarvi kaivaa
+  Oven voi avata nappia painamalla pieneltä etäisyydeltä, eikä tarvitse kaivaa
   avaimia taskusta, ja pyörän voi jopa ajaa suoraan autotalliin sisään.
   Valitettavasti meillä oli vain yksi kaukosäädin, ja en oikein voinut omia sitä
   pelkästään itselleni. Siispä lähdin tutkimaan toimivan kaukosäätimen toimintaa
@@ -20,7 +20,7 @@ HTMLdescription: '"Reverse-engineerasin" kotoa löytyneen autotallin
   kaukosäätimen, jotta saisin helposti ja nopeasti autotallin ovet auki silloin
   kun haluan. Tämä on ollut aikamoinen ikuisuusprojekti minulle.'
 singlePageContent: >-
-  
+
   Kaikki siis alkoi jo joskus 2016 vuoden aikana. Purin kotoa löytyneen kaukosäätimen ja rupesin oskilloskoopin avulla tutkimaan sen toimintaa. Netistä ei löytynyt minkäänlaista dokumentaatiota juuri tästä laitteesta, joten olin omillani. Tässä tapauksessa oli hyvä asia, että autotallin avaamissysteemi ja kaukosäädin ovat melko vanhoja. Sähkökomponentit olivat melko kookkaita, ja kaukosäätimen lähettämä signaali ei ole kauhean monimutkainen, ja sen tulkitseminen ilman dokumentaatiotakin oli melko helppoa. Lisäksi veikkaan (ja oikeastaan myös toivon), että nykyaikaisissa kaukosäätimissä on sellaisia turvaominaisuuksia, että pelkästään signaalin kopioimalla ei voi tehdä uutta toimivaa kaukosäädintä.
 
 
@@ -48,7 +48,7 @@ singlePageContent: >-
   2020 keväällä sain uuden pyörän, johon sitten laitoin kaukosäätimen kiinni. (En siis onnistunut tekemään laitteesta niin pientä, että sitä olisi järkevää kantaa mukana, vaan se on kiinni pyörässä koko ajan.) Samalla sitten tein pientä säätöä, koska laitteen toimivuus oli ollut vähän heikkoa. Jotenkin, vaikka en tehnyt mitään muutoksia, kaukosäätimen toimintavarmuus oli heikentynyt ajan myötä. Tällä kertaa lähdin eri tyylillä parantamaan laitetta. Koska käyttämästäni LiPo-akusta tuleva jännite ei alun perinkään riittänyt antennin toimimiseen, olin alusta asti käyttänyt pieni muuntajaa, jolla lähetin sai hiukan isomman käyttöjännitteen. Muistaakseni aluksi säädin sen noin 7-10 volttiin, ja ajattelin, että se olisi riittävä. Ja aluksihan se myös riitti, koska jossain vaiheessa kaukosäädin oli oikeasti ihan toimiva. Nyt sitten kuitenkin turhautuneena päätin nostaa jännitettä reilusti. Muistaakseni tällä hetkellä laite toimii suurin piirtein 15-20 voltin jännitteellä. Paino on sanalla “toimii”, koska nyt kaukosäädin oikeasti toimii. Jännitteen nostaminen ei varmasti ollut kovin elegantti tapa korjata laite, mutta olen nyt tyytyväinen sen toimintaa. Uudessa pyörässä antennina toimii muuten taas pyörän runko.
 
 
-  Tuntuu siltä, että jokaisen tänne kirjoittamani tekstin viimeisen kappaleen aihe on se, että häpeän projektiani, mutta olen silti tyytyväinen siihen, että se toimii. Tämäkään teksti ei ole poikkeus. Eniten häpeän sitä, etten vieläkään ole opiskellut LC-piirien toimintaa. Toki siis ymmärrän sen, miten energiaa muuttuu käämin magneettikentän energiasta kondensaattorin sähkökentän energiaksi jaksollisesti, mutta hämäräksi on jäänyt tätä värähtelyä ylläpitävän virtapiirin toiminta. Tämän tekstin jälkeen yritän ottaa itseäni niskasta kiinni ja lähden ottamaan selvää tästä mysteeristä.
+  Tuntuu siltä, että jokaisen tänne kirjoittamani tekstin viimeisen kappaleen aihe on, että häpeän projektiani, mutta olen silti tyytyväinen siihen, että se toimii. Tämäkään teksti ei ole poikkeus. Eniten häpeän sitä, etten vieläkään ole opiskellut LC-piirien toimintaa. Toki siis ymmärrän sen, miten energiaa muuttuu käämin magneettikentän energiasta kondensaattorin sähkökentän energiaksi jaksollisesti, mutta hämäräksi on jäänyt tätä värähtelyä ylläpitävän virtapiirin toiminta. Tämän tekstin jälkeen yritän ottaa itseäni niskasta kiinni ja lähden ottamaan selvää tästä mysteeristä.
 
 
   Olen kuitenkin ylpeä siitä, että sain “reverse-engineerattua” kaukosäätimen toiminnan ja myös tehtyä toisen toimivan kaukosäätimen ilman minkäänlaisia ohjeita netistä. Kaukosäädin on oikeasti aika kätevä.
