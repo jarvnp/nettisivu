@@ -31,6 +31,10 @@
   elmnt.style.minHeight = "calc(100% - "+document.getElementById("bottomBar").offsetHeight +"px)";
   if(window.location.search == ""){
     document.getElementById("small-description").innerHTML = {{ .Params.Description | markdownify}} + "<br>";
+    var link = document.createElement('link');
+    link.rel = 'canonical';
+    link.href = './?desc=false';
+    document.getElementsByTagName('head')[0].appendChild(link);
   }
 </script>
 <script src="/js/imageLoad.js"></script>
