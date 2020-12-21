@@ -32,11 +32,6 @@ html {
   font-size: 1.2em;
 }
 
-.profilePic{
-  width: 300px;
-  float: left;
-  border-radius: 5px;
-}
 
 img, video{
   max-width: 100%;

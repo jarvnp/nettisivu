@@ -6,27 +6,32 @@ function imageLoader(id, image) {
   }
 }
 
-imageLoader('profile-pic', '/img/profile-pic.jpg');
-imageLoader('Led-kuutio-inside1', '/img/Led-kuutio-inside1.jpg');
-imageLoader('Led-kuutio-inside2', '/img/Led-kuutio-inside2.jpg');
-imageLoader('Led-kuutio', '/img/Led-kuutio.jpg');
-imageLoader('quadcopter-new', '/img/quadcopter-new.jpg');
-imageLoader('quadcopter-old', '/img/quadcopter-old.jpg');
-imageLoader('globe', '/img/globe.jpg');
-imageLoader('printer', '/img/printer.jpg');
-imageLoader('boat','/img/boat.JPG');
-imageLoader('printer-electronics', '/img/printer-electronics.JPG')
-imageLoader('radio', '/img/radio.jpg')
-imageLoader('radio-inside', '/img/radio-inside.jpg')
-imageLoader('radio-inside2', '/img/radio-inside2.jpg')
-imageLoader('bike-alarm', '/img/bike-alarm.jpg')
-imageLoader('bike-alarm-inside', '/img/bike-alarm-inside.jpg')
-imageLoader('bike-alarm-old-module', '/img/bike-alarm-old-module.jpg')
-imageLoader('garage-remote', '/img/garage-remote.jpg')
+var elements = document.getElementsByTagName("img");
+for(var i = 0; i< elements.length; i++){
+    imageLoader(elements[i].id, elements[i].src.replace("-small",""));
+}
 
+reSizeImages();
+window.addEventListener("resize", reSizeImages);
 
 function loadHighResImage(elem, highResUrl) {
     let image = new Image()
     image.addEventListener('load', () => elem.src = highResUrl)
     image.src = highResUrl
+}
+
+
+function reSizeImages(){
+  var elements = document.getElementsByTagName("img");
+  for(var i = 0; i< elements.length; i++){
+    var elementInfo = elements[i].outerHTML;
+    var size = elementInfo.substring(elementInfo.search("width=")+7,elementInfo.search("px"))
+
+    if(elements[i].width > parseInt(size)+150){
+      elements[i].style.width = size+ "px";
+    }
+    if((elements[i].parentElement.offsetWidth - elements[i].width) < 150){
+      elements[i].style.width = "100%";
+    }
+  }
 }
