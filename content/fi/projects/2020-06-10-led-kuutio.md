@@ -13,8 +13,8 @@ description: <video class = "ledkuutio" loop muted playsinline controls><source
 HTMLdescription: 4x4x4 LED-kuutio, jonka tein joskus 2016 vuoden loppupuolella.
   On loppujen lopuksi myös melko monimutkainen härveli.
 singlePageContent: >-
-  <img id=Led-kuutio style="float: right" src="/img/Led-kuutio-small.jpg"
-  width="400px" alt="LED-kuutio">Tästä projektista on aika vaikea kirjoittaa
+  <img id=Led-kuutio style="float: right; width: 400px" src="/img/Led-kuutio-small.jpg"
+  alt="LED-kuutio">Tästä projektista on aika vaikea kirjoittaa
   mitään, koska tosiaan sen tekemisestä on noin 4 vuotta. Inspiraatio tuli
   Youtubesta. Aiemmin mainittu GreatScott oli tehnyt vastaavanlaisia kuutioita,
   ja hänellä oli myös video multipleksaamisesta (englanniksi
@@ -23,12 +23,12 @@ singlePageContent: >-
   RGB-ledeillä. En kuitenkaan ollut niin kunnianhimoinen, ja päätin että 4x4x4
   kuution 64 yksiväristä lediä riittää minulle. Tähän vaikutti varmaan myös se,
   että halusin tehdä projektin käyttämättä erillistä integroitua piiriä. <img
-  id=Led-kuutio-inside1 style="float: right"
-  src="/img/Led-kuutio-inside1-small.jpg" width="400px" alt="LED-kuutio
+  id=Led-kuutio-inside1 style="float: right; width: 400px"
+  src="/img/Led-kuutio-inside1-small.jpg" alt="LED-kuutio
   sisältäpäin. Johtoja ja elektroniikkaa">
 
 
-  Siispä multipleksaamista lähdin tekemään käyttämällä NPN- ja PNP-transistoreja. (Muistaakseni 2N2222 ja 2N2907. En näitä muistaakseni tähän tarkoitukseen varsinaisesti ostanut. Ostin vain Ebaysta jotain mitä halvalla sai, kun aloitin elektroniikkaharrastukseni.) Valitettavasti minulla ei ole tallella minkäänlaista piirikaaviota projektista. Avasin kuution ja tutkin vähän sen sisälmyksiä, ja sen sekä muistini perusteella taisin toteuttaa multipleksaamisen suurin piirtein niin, että erikseen voidaan jokaisen 4x4x4-kuution kerroksiin kytkeä anodeille +5V PNP-transistorilla. <img id=Led-kuutio-inside2 src="/img/Led-kuutio-inside2-small.jpg" width="400px" style="float: left" alt="LED-kuution elektroniikkaa: Atmega328p, resistoreja, transistoreja ja muita komponentteja">Tähän kuluu siis 4 mikrokontrollerin digitaalista ulostuloa. Jokaisessa kerroksessa on 4x4 = 16 lediä, ja näitä sitten multipleksataan NPN-transistoreilla riveittäin. Siis jokaista lediä kohti on transistori. Neljällä mikrokontrollerin ulostulolla voidaan kytkeä erikseen jokaisen rivin transistorit päälle. Sitten toisella neljällä ulostulolla jokaista saraketta voidaan hallita. Yhteensä siis koko kuutiossa mikrokontrollerin pinejä tarvitaan 12. Asia on toivottavasti selkeä. Tein nopeasti ja huvin vuoksi myös jonkinlaisen kaavion, joka ehkä selventää asiaa. En siis ihan täysin tarkasti muista teinkö kytkennät juuri kuten kuvassa, mutta ainakin suurin piirtein niin. Jossain välissä kytkennässä on tietenkin myös ledien virtaa rajoittavat resistorit. <img src="/img/Led-kuutio-circuit.png" width="600px" style="float: right" alt="LED-kuution multipleksauksen virtapiiri">
+  Siispä multipleksaamista lähdin tekemään käyttämällä NPN- ja PNP-transistoreja. (Muistaakseni 2N2222 ja 2N2907. En näitä muistaakseni tähän tarkoitukseen varsinaisesti ostanut. Ostin vain Ebaysta jotain mitä halvalla sai, kun aloitin elektroniikkaharrastukseni.) Valitettavasti minulla ei ole tallella minkäänlaista piirikaaviota projektista. Avasin kuution ja tutkin vähän sen sisälmyksiä, ja sen sekä muistini perusteella taisin toteuttaa multipleksaamisen suurin piirtein niin, että erikseen voidaan jokaisen 4x4x4-kuution kerroksiin kytkeä anodeille +5V PNP-transistorilla. <img id=Led-kuutio-inside2 src="/img/Led-kuutio-inside2-small.jpg" style="float: left; width: 400px" alt="LED-kuution elektroniikkaa: Atmega328p, resistoreja, transistoreja ja muita komponentteja">Tähän kuluu siis 4 mikrokontrollerin digitaalista ulostuloa. Jokaisessa kerroksessa on 4x4 = 16 lediä, ja näitä sitten multipleksataan NPN-transistoreilla riveittäin. Siis jokaista lediä kohti on transistori. Neljällä mikrokontrollerin ulostulolla voidaan kytkeä erikseen jokaisen rivin transistorit päälle. Sitten toisella neljällä ulostulolla jokaista saraketta voidaan hallita. Yhteensä siis koko kuutiossa mikrokontrollerin pinejä tarvitaan 12. Asia on toivottavasti selkeä. Tein nopeasti ja huvin vuoksi myös jonkinlaisen kaavion, joka ehkä selventää asiaa. En siis ihan täysin tarkasti muista teinkö kytkennät juuri kuten kuvassa, mutta ainakin suurin piirtein niin. Jossain välissä kytkennässä on tietenkin myös ledien virtaa rajoittavat resistorit. <img src="/img/Led-kuutio-circuit.png" style="float: right; width: 600px" alt="LED-kuution multipleksauksen virtapiiri">
 
 
   Laitteen aivoina käytin Arduinosta tuttua Atmega328P-mikrokontrolleria. Ohjeen siihen, miten laitetta käytetään ilman Arduino-alustaa, löysin tietenkin myös GreatScott-kanavalta. Muistan ajatelleeni, miten hyvä tuuri minulla oli, kun sain multipleksauksen tehtyä 12 digitaalisella ulostulolla, koska luulin että Atmega328p:ssä on 12 digitaalista ulostuloa. Joskus myöhemmin minulle selvisi, että analogisia sisääntuloja voi käyttää myös kuten kaikkia muitakin pinejä. LED-kuutiossa käytin 12 ledien vaatiman ulostulon lisäksi nappia, mutta kytkin sen analogiseen sisääntuloon ja luulin että sitä piniä ei voisi käyttää digitaalisena sisääntulona. No, eipä tuo haitannut, homma toimii.

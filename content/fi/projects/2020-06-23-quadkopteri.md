@@ -18,8 +18,8 @@ singlePageContent: >-
   yhtään kuvaa. (Silloin en ollut vielä somenuori, eikä minulla ollut
   Snapchattia, joten en ottanut kuvia kaikesta mahdollisesta.) Tallella on
   kuitenkin tekemäni 3D-mallit, joten niiden avulla voin suurin piirtein
-  näyttää, millainen kopteri oli. <img style="float: right"
-  src="/img/quadcopter-model.png" width="500px" alt="Quadkopterin 3D-malli"> Se
+  näyttää, millainen kopteri oli. <img style="float: right; width: 500px"
+  src="/img/quadcopter-model.png" alt="Quadkopterin 3D-malli"> Se
   oli siis kooltaan melko pieni, moottorin keskipisteestä vastakkaisessa
   kulmassa olevan moottorin keskipisteeseen noin 150 mm. Propellit olivat kolmen
   tuumaa halkaisijaltaan. Päällä oleva korkea kohta suojasi elektroniikkaa sekä

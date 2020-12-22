@@ -5,8 +5,6 @@
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>{{ .Params.Title}}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
   <meta name="description" content="{{ .Params.HTMLDescription }}" >
 </head>
   <body>
@@ -25,7 +23,9 @@
     </div>
   </body>
 </html>
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@900&display=swap');
+</style>
 <script>
   var elmnt = document.getElementById("bodyDiv");
   elmnt.style.minHeight = "calc(100% - "+document.getElementById("bottomBar").offsetHeight +"px)";
