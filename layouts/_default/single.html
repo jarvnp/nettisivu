@@ -32,11 +32,13 @@
   if(window.location.search == ""){
     document.getElementById("small-description").innerHTML = {{ .Params.Description | markdownify}} + "<br>";
   }
-  else{
-    var link = document.createElement('link');
-    link.rel = 'canonical';
-    link.href = "../../".concat("{{ .File.Dir}}{{.File.TranslationBaseName}}");
-    document.getElementsByTagName('head')[0].appendChild(link);
+  var link = document.createElement('link');
+  link.rel = 'canonical';
+  link.href = "https://jarvenp.fi/";
+  if("{{.Site.Language.Lang}}" == "en"){
+    link.href = link.href.concat("en/");
   }
+  link.href = link.href.concat("{{ .File.Dir}}{{.File.TranslationBaseName}}");
+  document.getElementsByTagName('head')[0].appendChild(link);
 </script>
 <script src="/js/imageLoad.js"></script>
